@@ -1,0 +1,41 @@
+body{
+    background-color: #2e3035 !important;
+    
+
+}
+
+.container{
+   
+    width:800px;
+ padding-left: 20%;
+ padding-right: 20%;
+ 
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-row-gap: 10%;
+    grid-column-gap: 10%;
+
+}
+.box{
+    border:2px solid white;
+    width:100%;
+    height: 100%;
+    background-color: #474a51;
+}
+.desc{
+    color: white;
+    background-color: #474a51;
+   
+}
+.photo{
+    border:2px solid white;
+    border-bottom: none;
+    width:100%;
+    height: 100%;
+
+    
+
+    }
+    .inp{
+        margin-left: 40%;
+    }
